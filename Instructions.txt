@@ -1,0 +1,42 @@
+Problem Statement 1 :
+
+In this assignment, you will use HTML AND CSS to create a portfolio website. 
+Throughout the training you will create various programs that will be added to your portfolio. 
+At the end of the training, you will have a complete website which will showcase all of your hard work!
+
+Create a portfolio home page which demonstrates your projects done so far
+(you can link your existing projects or simply some pictures).
+
+
+
+
+Note:
+
+
+1. Header:
+    The header of the webpage includes the navigation buttons. 
+    You will link these buttons to their respective web pages later in this assignment. 
+    The Nav buttons should be spaced to look appealing.
+
+2. Sections:
+    The website should include three sections, first one displaying your introduction 
+    and second displaying your project work and the third section will include the social media links.
+
+NOTE : Every after effects like animation shown in video, 
+hover effects on some places and also the effects taking place on cards and footer must be included .
+
+
+
+
+
+
+Problem Statement 2 :
+
+Quiz 1 : Positioning Quiz 
+
+https://www.codecademy.com/courses/learn-css/quizzes/css-display-positioning-quiz
+
+Quiz 2 :Flexbox Quiz
+
+https://www.codecademy.com/courses/learn-intermediate-css/quizzes/flexbox-quiz
+
