@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
     <style>
       * {
         margin: 0;
@@ -17,17 +18,51 @@
       }
 
       body {
-        background-color: rgb(0, 0, 33);
+        background-color: rgb(31, 30, 30);
         color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 55px;
+        background-color: rgb(42, 73, 166);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 23px;
+        cursor: pointer;
+      }
+
+      .left {
+        font-size: 1.5rem;
       }
     </style>
   </head>
+
   <body>
     <header>
       <nav>
-        <div class="left"></div>
-        <div class="right"></div>
+        <div class="left">Bma's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
       </nav>
     </header>
+
+    <main></main>
   </body>
 </html>
