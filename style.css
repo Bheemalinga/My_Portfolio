@@ -140,7 +140,7 @@ nav ul li:hover {
 
 footer {
   background-color: rgb(42, 73, 166);
-  height: 200px;
+  height: auto;
 }
 
 .footer {
