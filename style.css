@@ -79,9 +79,62 @@ nav ul li:hover {
 }
 
 .projects {
-  /* background-color: #4f709c; */
-  background-color: #94a684;
-  height: 500px;
+  background-color: #4e698d;
+  height: 1100px;
+  width: 90%;
+  padding: 50px;
+  font-size: 1.5rem;
+  margin: auto;
+  display: grid;
+}
+
+.projects img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.projects h2 {
+  color: #e9b824;
+  font-size: 2rem;
+}
+
+.projects h3 {
+  color: #f5f5dc;
+  font-size: 2rem;
+}
+
+.projectsContainer1 {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.project2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.projectsContainer2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project3:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.project4:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 footer {
