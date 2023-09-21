@@ -41,7 +41,6 @@ nav ul li:hover {
   color: white;
   padding: 12px;
   background-color: rgb(173, 155, 43);
-  border-radius: 20px;
   box-sizing: content-box;
   transition: 0.5s;
 }
@@ -54,6 +53,7 @@ nav ul li:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 90vh;
 }
 
 .firstSection > div {
@@ -71,18 +71,53 @@ nav ul li:hover {
 }
 
 .Name {
-  color: rgb(173, 155, 43);
+  color: rgb(56, 140, 148);
 }
 
 #element {
   color: rgb(173, 155, 43);
 }
 
+.projects {
+  /* background-color: #4f709c; */
+  background-color: #94a684;
+  height: 500px;
+}
+
 footer {
   background-color: rgb(42, 73, 166);
-  height: 230px;
+  height: 200px;
 }
 
 .footer {
   display: flex;
+  padding: 23px 120px;
+  justify-content: space-between;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+}
+
+.fsecond {
+  display: flex;
+  width: 30%;
+}
+
+.fthird {
+  margin-top: 100px;
+}
+
+.ffourth ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.ffourth ul li a:hover {
+  transition: 0.4s;
+  font-size: 18px;
+  color: rgb(173, 155, 43);
 }
