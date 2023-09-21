@@ -1,3 +1,3 @@
 # My Portfolio Website
 
-Using HTML and CSS
+Using HTML and CSS + Internal JS
