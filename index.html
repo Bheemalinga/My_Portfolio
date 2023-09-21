@@ -10,71 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        background-color: rgb(31, 30, 30);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 55px;
-        background-color: rgb(42, 73, 166);
-      }
-
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-
-      nav ul li {
-        list-style: none;
-        margin: 20px;
-        cursor: pointer;
-      }
-
-      nav ul li:hover {
-        color: white;
-        padding: 10px;
-        background-color: rgb(173, 155, 43);
-        border-radius: 20px;
-        box-sizing: content-box;
-        transition: 0.5s;
-      }
-
-      .left {
-        font-size: 1.5rem;
-      }
-
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        margin: 100px 0px 0px 0px;
-      }
-
-      .firstSection > div {
-        width: 30%;
-      }
-
-      .leftSection {
-        font-size: 3rem;
-        padding: 150px 0px 0px 200px;
-      }
-
-      .rightSection img {
-        width: 100%;
-        padding: 50px 0px 0px 0px;
-      }
-    </style>
   </head>
 
   <body>
@@ -83,10 +20,10 @@
         <div class="left">Bma's Portfolio</div>
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
           </ul>
         </div>
       </nav>
@@ -95,13 +32,43 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-          Hey, I'm Bheema Linga Sai
-          <div>and Iam an Engineer</div>
+          Hey, I'm <br />
+          <span class="Name"> Bheema Linga Sai </span>
+          <div>and I'm</div>
+          <span id="element"></span>
         </div>
         <div class="rightSection">
           <img src="me.png" alt="" />
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="footer">
+        <div class="ffirst">
+          <h2>Bheemalinga Sai Portfolio</h2>
+        </div>
+        <divf class="fsecond"></div>
+        <div class="fthird"></div>
+        <div class="ffourth"></div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Text Animation -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "a Learner.",
+          "a Student.",
+          "a Programmer.",
+          "an Engineer.",
+          "Trainee at HeroVired.",
+          " a Web Developer.",
+        ],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
