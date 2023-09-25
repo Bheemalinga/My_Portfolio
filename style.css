@@ -80,7 +80,8 @@ nav ul li:hover {
 
 .projects {
   background-color: #4e698d;
-  height: 1100px;
+  /* height: 1100px; */
+  height: auto;
   width: 90%;
   padding: 50px;
   font-size: 1.5rem;
